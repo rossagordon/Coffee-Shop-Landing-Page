@@ -56,7 +56,7 @@ const Cards = () => {
           />
           <h2 className="text-2xl font-bold text-center py-8">Cuppings</h2>
           <p className="text-center text-4xl font-bold">
-            Coffee tastings are back! Sign up below!
+            Coffee tastings are back!
           </p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8">
