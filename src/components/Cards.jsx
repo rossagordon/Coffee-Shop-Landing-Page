@@ -11,7 +11,7 @@ const Cards = () => {
         {/* Card 1 */}
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-20 mx-auto mt-[-3] bg-white"
+            className="w-full mx-auto mt-[-3] bg-white"
             src={Farm}
             alt="Coffee Farm"
           />
@@ -28,9 +28,9 @@ const Cards = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-20 mx-auto mt-[-3] bg-white"
+            className="w-full mx-auto mt-[-3] bg-white"
             src={Barista}
             alt="A barista serving coffee"
           />
@@ -50,7 +50,7 @@ const Cards = () => {
         {/* Card 3 */}
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-20 mx-auto mt-[-3] bg-white"
+            className="w-full mx-auto mt-[-3] bg-white"
             src={Cupping}
             alt="Coffee Cupping"
           />
