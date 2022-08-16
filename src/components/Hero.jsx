@@ -11,9 +11,7 @@ const Hero = () => {
           That's It.
         </h1>
         <p className="md:text-2xl text-xl font-bold pl-2">
-          We select and source the best coffees from around the world. Our focus
-          is to serve the best coffee, while establishing direct relationships
-          to best support our produce partners. Established 2021.
+          Established 2021.
         </p>
         <button className="bg-black text-white w-[200px] rounded-md font-medium my-6 mx-auto py-3">
           Order Online
