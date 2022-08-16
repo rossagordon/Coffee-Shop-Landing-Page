@@ -1,13 +1,12 @@
 import React from "react";
 import Barista from "../assets/barista.jpg";
-import Farm from '../assets/coffeefarm.jpg';
-import Cupping from '../assets/cupping.jpg';
+import Farm from "../assets/coffeefarm.jpg";
+import Cupping from "../assets/cupping.jpg";
 
 const Cards = () => {
   return (
     <div className="w-full py-[10rem] px-4 bg-white">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
-
         {/* Card 1 */}
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
@@ -19,7 +18,8 @@ const Cards = () => {
           <p className="text-center text-4xl font-bold">Coffee Journals</p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8">
-              In the last year, we've visited 3 of our partner's coffee farms in Costa Rica, Mexico, and Colombia.
+              In the last year, we've visited 3 of our partner's coffee farms in
+              Costa Rica, Mexico, and Colombia.
             </p>
           </div>
           <button className="bg-[#011627] text-white w-[200px] rounded-md my-6 mx-auto px-6 py-3">
@@ -55,7 +55,9 @@ const Cards = () => {
             alt="Coffee Cupping"
           />
           <h2 className="text-2xl font-bold text-center py-8">Cuppings</h2>
-          <p className="text-center text-4xl font-bold">Coffee tastings are back! Sign up below!</p>
+          <p className="text-center text-4xl font-bold">
+            Coffee tastings are back! Sign up below!
+          </p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8">
               Wednesdays - 1pm - Main St. Cafe
