@@ -5,7 +5,7 @@ import { FaFacebookSquare, FaTwitterSquare, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <div name="contact" className="bg-[#011627] text-white">
-      <div className="">
+      <div className="px-12">
         <h2 className="text-5xl text-center py-8">Connect</h2>
         <ul className="flex justify-between px-8 py-8 text-white">
           <li>
