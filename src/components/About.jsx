@@ -3,7 +3,7 @@ import Steaming from "../assets/steamingmilk.jpg";
 
 const About = () => {
   return (
-    <div className="w-full bg-[#FDFFFC] py-16 px-4">
+    <div name="about" className="w-full bg-[#FDFFFC] py-16 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-5">
         <img
           src={Steaming}

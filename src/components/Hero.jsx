@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="text-black">
+    <div name="home" className="text-black">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <p className="md: text-5xl sm:text-4l text-3xl font-bold p-2">
           Good Coffee.
