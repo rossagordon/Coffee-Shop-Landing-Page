@@ -7,18 +7,18 @@ const Footer = () => {
     <div name="contact" className="bg-[#011627] text-white">
       <div className="px-12">
         <h2 className="text-5xl text-center py-8">Connect</h2>
-        <ul className="flex justify-between px-8 py-8 text-white">
-          <li>
+        <ul className="flex justify-center py-8  text-white">
+          <li className="p-4">
             <a href="https://facebook.com" target="_blank">
               <FaFacebookSquare size={30} />
             </a>
           </li>
-          <li>
+          <li className="p-4">
             <a href="https://twitter.com" target="_blank">
               <FaTwitterSquare size={30} />
             </a>
           </li>
-          <li>
+          <li className="p-4">
             <a href="https://instagram.com" target="_blank">
               <FaInstagram size={30} />
             </a>
