@@ -8,7 +8,7 @@ const About = () => {
         <img
           src={Steaming}
           alt="Barista steaming milk."
-          className="w-[500px] mx-auto my-4"
+          className="w-[500px] mx-auto my-4 border-black"
         />
         <div className="flex flex-col justify-center">
           <p className="md:text-2xl text-xl font-bold pl-2 text-center">
